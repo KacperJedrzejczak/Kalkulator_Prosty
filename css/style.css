@@ -1,0 +1,42 @@
+.kalkulator {
+  width: 300px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.wynik {
+  width: 93.5%;
+  height: 50px;
+  font-size: 20px;
+  text-align: right;
+  padding: 10px;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.przyciski {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  padding: 10px;
+}
+
+.cyfra, .operator, .wyrownaj, .kasuj {
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cyfra:hover, .operator:hover, .wyrownaj:hover, .kasuj:hover {
+  background-color: #888888;
+}
+
+.kasuj {
+  background-color: #f00;
+  color: #fff;
+}

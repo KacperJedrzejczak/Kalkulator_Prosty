@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="kalkulator">
+  <input type="text" id="wynik" class="wynik" disabled>
+  <div class="przyciski">
+    <button class="cyfra" onclick="dodajCyfre(this)">1</button>
+    <button class="cyfra" onclick="dodajCyfre(this)">2</button>
+    <button class="cyfra" onclick="dodajCyfre(this)">3</button>
+    <button class="operator" onclick="dodajOperator(this)">+</button>
+    <button class="cyfra" onclick="dodajCyfre(this)">4</button>
+    <button class="cyfra" onclick="dodajCyfre(this)">5</button>
+    <button class="cyfra" onclick="dodajCyfre(this)">6</button>
+    <button class="operator" onclick="dodajOperator(this)">-</button>
+    <button class="cyfra" onclick="dodajCyfre(this)">7</button>
+    <button class="cyfra" onclick="dodajCyfre(this)">8</button>
+    <button class="cyfra" onclick="dodajCyfre(this)">9</button>
+    <button class="operator" onclick="dodajOperator(this)">*</button>
+    <button class="cyfra" onclick="dodajCyfre(this)">0</button>
+    <button class="operator" onclick="dodajOperator(this)">/</button>
+    <button class="wyrownaj" onclick="oblicz()">=</button>
+    <button class="kasuj" onclick="kasuj()">C</button>
+  </div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
